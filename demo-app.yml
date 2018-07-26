@@ -5,7 +5,7 @@ metadata:
   labels:
     app: demo-app
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: demo-app
@@ -39,4 +39,3 @@ spec:
   selector:
     app: demo-app
   type: NodePort
-# trigger-commit
